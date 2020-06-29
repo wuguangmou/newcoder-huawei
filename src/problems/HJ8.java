@@ -31,9 +31,8 @@ public class HJ8 {
             }
         }
         //按格式输出map中元素
-        for (Map.Entry<Integer, Integer> e : map.entrySet()){
-            System.out.print(e.getKey() + " ");
-            System.out.println(e.getValue());
+        for (Integer key : map.keySet()){
+            System.out.println(key + " " + map.get(key));
         }
     }
 }

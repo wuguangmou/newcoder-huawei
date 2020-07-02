@@ -22,9 +22,10 @@ public class HJ14 {
             String str = input.next();
             arr[i] = str;
         }
+        //对接收到的字符串数组，使用自然排序，即按照字母顺序排序
         Arrays.sort(arr);
-        for (String anArr : arr) {
-            System.out.println(anArr);
+        for (String str : arr) {
+            System.out.println(str);
         }
     }
 }

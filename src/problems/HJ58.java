@@ -7,7 +7,10 @@ import java.util.Scanner;
  * @User: 吴广谋
  * @Date: 2020/6/6
  * @Description: 输入n个整数，输出其中最小的k个。
- * 输入描述：第一行输入两个整数n、k，n为数组元素个数，k为需要输出的最小的个数      输出描述：输出一个整数数组
+ * 输入描述：第一行输入两个整数n、k，n为数组元素个数，k为需要输出的最小的个数，第二行输入一个整数数组
+ * 输出描述：输出一个整数数组
+ * 例：输入：5 2             输出：1 2
+ *          1 3 5 7 2
  */
 public class HJ58 {
     public static void main(String[] args) {

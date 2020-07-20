@@ -16,7 +16,7 @@ public class HJ107 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
-        double result = getCubeRoot(Double.parseDouble(str));
+        double result = getCubeRootByDichotomy(Double.parseDouble(str));
         System.out.printf("%.1f", result);
     }
 
@@ -33,5 +33,27 @@ public class HJ107 {
             x = x - (x*x*x - a) / (3*x*x);
         }
         return x;
+    }
+
+    //通过二分法求解近似方程
+    private static double getCubeRootByDichotomy(double a){
+        if (a < 0){
+            return -1 * getCubeRootByDichotomy(-a);
+        }
+        //对于二分查找的区间，当a大于1时，立方根的值肯定在区间[0,a]中，当0<a<1时，立方根的值在区间[0,a]的右边，此时将查找范围改为[0,1]
+        double max = a < 1 ? 1 : a;
+        double min = 0;
+
+        while ((max - min) > 1e-9){
+            double mid = (max + min) / 2;
+            if (mid * mid *mid > a){
+                max = mid;
+            } else if (mid * mid *mid < a) {
+                min = mid;
+            } else {
+                return mid;
+            }
+        }
+        return max;
     }
 }

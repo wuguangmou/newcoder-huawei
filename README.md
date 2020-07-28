@@ -27,6 +27,7 @@
 | HJ95 | [人民币转换](src/problems/HJ95.java) | 字符串 | 较难 |
 | HJ96 | [表示数字](src/problems/HJ96.java) | 字符串 | 中等 |
 | HJ97 | [记负均正](src/problems/HJ97.java) | 数组、思维 | 中等 |
+| HJ104 | [字符串分割](src/problems/HJ104.java) | 字符串 | 中等 |
 | HJ105 | [记负均正II](src/problems/HJ105.java) | 数组、思维 | 中等 |
 | HJ106 | [字符逆序](src/problems/HJ106.java) | 字符串 | 简单 |
 | HJ107 | [求解立方根](src/problems/HJ108.java) | 二分、数学 | 中等 |

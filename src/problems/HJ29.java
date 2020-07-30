@@ -9,6 +9,10 @@ import java.util.Scanner;
  * 规则：1.当内容是英文字母时则用该英文字母的后一个字母替换，同时字母变换大小写,如字母a时则替换为B；字母Z时则替换为a
  *      2.当内容是数字时则把该数字加1，如0替换1，1替换2，9替换0
  *      3.其他字符不做变化
+ * 输入描述：输入一串要加密的密码          输出描述：输出加密后的字符
+ *          输入一串加过密的密码                   输出解密后的字符
+ * 例：输入：abcdefg                     输出：BCDEFGH
+ *          BCDEFGH                          abcdefg
  */
 public class HJ29 {
     public static void main(String[] args) {

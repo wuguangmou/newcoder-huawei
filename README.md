@@ -22,6 +22,7 @@
 | HJ14 | [字串的连接最长路径查找](src/problems/HJ14.java) | 字符串 | 中等 |
 | HJ15 | [求int型正整数在内存中存储时1的个数](src/problems/HJ15.java) | 位运算 | 简单 |
 | HJ16 | [购物单](src/problems/HJ16.java) | 动态规划 | 较难 |
+| HJ23 | [删除字符串中出现次数最少的字符](src/problems/HJ23.java) | 字符串 | 中等 |
 | HJ29 | [字符串加解密](src/problems/HJ29.java) | 字符串 | 中等 |
 | HJ37 | [统计每个月兔子的总数](src/problems/HJ37.java) | 动态规划 | 简单 |
 | HJ58 | [输入n个整数，输出其中最小的k个](src/problems/HJ58.java) | 数组 | 简单 |
@@ -31,6 +32,7 @@
 | HJ95 | [人民币转换](src/problems/HJ95.java) | 字符串 | 较难 |
 | HJ96 | [表示数字](src/problems/HJ96.java) | 字符串 | 中等 |
 | HJ97 | [记负均正](src/problems/HJ97.java) | 数组、思维 | 中等 |
+| HJ100 | [等差数列](src/problems/HJ100.java) | 数学 | 简单 |
 | HJ104 | [字符串分割](src/problems/HJ104.java) | 字符串 | 中等 |
 | HJ105 | [记负均正II](src/problems/HJ105.java) | 数组、思维 | 中等 |
 | HJ106 | [字符逆序](src/problems/HJ106.java) | 字符串 | 简单 |

@@ -1,6 +1,9 @@
 # 牛客网华为机试oj题解
-此项目是牛客网上华为机试的java题解，[具体题目地址点我](https://www.nowcoder.com/ta/huawei/)
---
+
+此项目是牛客网上华为机试的java题解，[具体题目地址点我](https://www.nowcoder.com/ta/huawei/)，希望这份题解能帮助到小伙伴们。
+
+---
+
 | 题号 | 题目 | 关键词/知识点 | 难度（个人评价，与官网有出入） |
 |---|---|---|---|
 | HJ1 | [字符串最后一个单词的长度](src/problems/HJ1.java) | 字符串 | 简单 |
@@ -24,6 +27,7 @@
 | HJ58 | [输入n个整数，输出其中最小的k个](src/problems/HJ58.java) | 数组 | 简单 |
 | HJ72 | [百钱买百鸡问题](src/problems/HJ72.java) | 查找 | 简单 |
 | HJ87 | [密码强度等级](src/problems/HJ87.java) | 字符串 | 中等 |
+| HJ90 | [合法IP](src/problems/HJ90.java) | 字符串 | 中等 |
 | HJ95 | [人民币转换](src/problems/HJ95.java) | 字符串 | 较难 |
 | HJ96 | [表示数字](src/problems/HJ96.java) | 字符串 | 中等 |
 | HJ97 | [记负均正](src/problems/HJ97.java) | 数组、思维 | 中等 |

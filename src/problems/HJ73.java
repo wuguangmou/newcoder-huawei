@@ -7,6 +7,9 @@ import java.util.Scanner;
  * @Date: 2020/8/4
  * @Description: 根据输入的日期，计算是这一年的第几天。详细描述：输入某年某月某日，判断这一天是这一年的第几天？
  * 输入描述：输入三行，分别是年，月，日           输出描述：成功:返回outDay输出计算后的第几天;失败:返回-1
+ * 例：输入：2012            输出：366
+ *          12
+ *          31
  */
 public class HJ73 {
     public static void main(String[] args) {
